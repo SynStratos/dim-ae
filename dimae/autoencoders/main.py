@@ -1,4 +1,4 @@
-from autoencoders.autoencoder import AE
+from dimae.autoencoders import AE
 
 a = AE(n_input = 80, code_nodes = 10, summary=False)
 # a.fit()

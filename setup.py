@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='dimae',
-    version='0.1',
-    scripts=['dimae'],
+    version='0.1.3',
     author="SynStratos",
     author_email="synstratos.dev@gmail.com",
     description="Dimensionality Autoencoder",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    include_package_data=True,
     url="https://github.com/SynStratos/dim_ae",
     packages=setuptools.find_packages(),
     classifiers=[
@@ -23,7 +23,6 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'tensorflow',
-        'math',
         'scikit-learn'
     ],
 )
