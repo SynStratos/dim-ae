@@ -33,6 +33,7 @@ class AE(Model):
         :param args:
         :param kwargs:
         """
+        super(AE, self).__init__(*args, **kwargs)
 
         self.input_nodes = n_input
 
