@@ -1,4 +1,4 @@
-# dim_ae
+# dim-ae
 Dimensionality Reduction Autoencoder built with Keras TF
 
 
